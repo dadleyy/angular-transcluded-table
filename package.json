@@ -1,0 +1,16 @@
+{
+  "name": "transcluded-table",
+  "version": "0.0.0",
+  "description": "a table directive that transcludes it's rows for customization",
+  "author": "Danny Hadley <danny@goinvo.com>",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "ejs": "~0.8.4",
+    "grunt-smash": "~0.1.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-angular-templates": "~0.3.12"
+  }
+}
