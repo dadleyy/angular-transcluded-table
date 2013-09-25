@@ -20,7 +20,7 @@ TT.directive('ttTransTable', [ '$filter', '$parse', function( $filter, $parse ) 
           var $rowScope = $scope.$parent.$new( );
           $rowScope.data = row;
           transclude($rowScope, function( items ) {
-
+            element.append( items );
           });
         };
 

@@ -7,7 +7,6 @@ TT.directive('ttItemRow', [ function( ) {
     scope: { item: '=' },
     compile: function( tElement ) {
       return (function( ) {
-        console.log('hi');
       });
     }
   };
